@@ -1,0 +1,53 @@
+[
+  {
+    "name": "proposal_N216_phi0.30_rep0",
+    "kind": "proposal",
+    "phi": 0.3,
+    "N": 216,
+    "nside": 6,
+    "L": 7.223988394141365,
+    "rho": 0.5729577951308233,
+    "seed": 835759,
+    "delta_initial": 0.1,
+    "equilibration_sweeps": 3000,
+    "adaptation_sweeps": 0,
+    "production_sweeps": 30000,
+    "sample_spacing_sweeps": 5,
+    "histogram_bin_width": 0.002,
+    "histogram_maximum": 1.12
+  },
+  {
+    "name": "proposal_N216_phi0.30_rep1",
+    "kind": "proposal",
+    "phi": 0.3,
+    "N": 216,
+    "nside": 6,
+    "L": 7.223988394141365,
+    "rho": 0.5729577951308233,
+    "seed": 843678,
+    "delta_initial": 0.1,
+    "equilibration_sweeps": 3000,
+    "adaptation_sweeps": 0,
+    "production_sweeps": 30000,
+    "sample_spacing_sweeps": 5,
+    "histogram_bin_width": 0.002,
+    "histogram_maximum": 1.12
+  },
+  {
+    "name": "proposal_N216_phi0.30_rep2",
+    "kind": "proposal",
+    "phi": 0.3,
+    "N": 216,
+    "nside": 6,
+    "L": 7.223988394141365,
+    "rho": 0.5729577951308233,
+    "seed": 851597,
+    "delta_initial": 0.1,
+    "equilibration_sweeps": 3000,
+    "adaptation_sweeps": 0,
+    "production_sweeps": 30000,
+    "sample_spacing_sweeps": 5,
+    "histogram_bin_width": 0.002,
+    "histogram_maximum": 1.12
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "name": "pilot_N216_phi0.30_rep0",
+    "kind": "pilot",
+    "phi": 0.3,
+    "N": 216,
+    "nside": 6,
+    "L": 7.223988394141365,
+    "rho": 0.5729577951308233,
+    "seed": 835759,
+    "delta_initial": 0.25,
+    "equilibration_sweeps": 3000,
+    "adaptation_sweeps": 1000,
+    "production_sweeps": 1000,
+    "sample_spacing_sweeps": 5,
+    "histogram_bin_width": 0.002,
+    "histogram_maximum": 1.12
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "name": "pilot",
+    "phi": 0.3,
+    "A": 100,
+    "dt": 2e-05,
+    "seed": 725191,
+    "N": 216,
+    "L": 7.223988394141365,
+    "rho": 0.5729577951308231,
+    "equilibration_time": 0.1,
+    "production_time": 0.1,
+    "sample_interval": 0.01,
+    "equilibration_steps": 5000,
+    "production_steps": 5000
+  }
+]

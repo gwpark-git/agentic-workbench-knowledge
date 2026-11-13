@@ -1,0 +1,1022 @@
+{
+  "schema": "wb.demonstration-provenance.v1",
+  "scope": "Selected plain-Codex demonstration archive; paths are relative to demonstrations/.",
+  "human_author": "Gunwoo Park",
+  "human_contribution": "Scientific questions, practical constraints, project direction and selection of retained materials; no line-by-line human review is asserted.",
+  "attribution_evidence": "Current author account and supplied demonstration documents; no original model/runtime transcript is included.",
+  "publication_state": "LOCALLY_PREPARED",
+  "publication_documentation": {
+    "ai_generated_text": true,
+    "tool": "OpenAI Codex",
+    "date": "2026-11-13",
+    "model": null,
+    "model_status": "unverified"
+  },
+  "historical_model_status": "Unknown. A model mentioned in the author letter is not treated as per-artifact generation evidence.",
+  "license": {
+    "project_owned_material": "Existing repository CC BY 4.0 grant; see ../LICENSE. No new license selected.",
+    "third_party_scope": "Third-party software and reference material retain their own terms; no dependency packages or upstream source archives are bundled."
+  },
+  "preservation": {
+    "archive_marker": "<!-- archived-body-start -->",
+    "meaning": "For notices using this marker, bytes after the marker newline equal the supplied pre-publication file. The notice was not part of the submitted prompt or original report.",
+    "main_author_letter": "../README.md is outside this inventory and was not edited.",
+    "inventory_exclusions": [
+      "PROVENANCE.json itself, to avoid a self-hash",
+      "macOS .DS_Store metadata, ignored by repository .gitignore"
+    ]
+  },
+  "limits": [
+    "No simulations, historical verification scripts or installers were executed during publication preparation.",
+    "Raw trajectories, output tables, validation evidence, dependency locks, original software/source archives and workflow logs are omitted.",
+    "Original scripts retain original-layout assumptions and are not a complete reproduction workflow in this checkout.",
+    "Historical execution, result, timing, resource and preservation claims are not independently verified by this inventory.",
+    "Hashes identify this supplied/prepared edition and do not authenticate an original Codex session or prove scientific correctness."
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3260,
+      "sha256": "9d03c8a4559191eff8e149b6ad7868a109813afb2382abb11f1b057266729b1f",
+      "kind": "documentation",
+      "ai_generated_text": true,
+      "original_tool": null,
+      "original_model": null,
+      "publication_revision": {
+        "tool": "OpenAI Codex",
+        "date": "2026-11-13",
+        "model": null,
+        "model_status": "unverified"
+      },
+      "preservation": "new publication guide",
+      "subsequent_human_edit": {
+        "author": "Gunwoo Park",
+        "date": "2026-11-14",
+        "scope": "Author-reference wording edited by the author; current prose preserved."
+      }
+    },
+    {
+      "path": "hard-spheres-eos/PROMPT_Carnahan_Starling_vs_BD_soft_repulsive_particles.md",
+      "bytes": 9524,
+      "sha256": "71eebb46652bcaa930cedad9686f6e3d808e7fbd0d32fc365cf61b1e9018e48f",
+      "supplied_file_sha256": "1a612950d7e2ef3b30d617a5b93a14d22a7c5a76c456e2e8ff21ae1ae282af25",
+      "kind": "documentation",
+      "ai_generated_text": true,
+      "original_tool": "ChatGPT",
+      "original_model": null,
+      "publication_revision": {
+        "tool": "OpenAI Codex",
+        "date": "2026-11-13",
+        "model": null,
+        "model_status": "unverified"
+      },
+      "preservation": "publication notice prepended; supplied body preserved byte-for-byte",
+      "preserved_body_sha256": "1a612950d7e2ef3b30d617a5b93a14d22a7c5a76c456e2e8ff21ae1ae282af25"
+    },
+    {
+      "path": "hard-spheres-eos/PROMPT_Carnahan_Starling_vs_MC_hard_spheres.md",
+      "bytes": 6522,
+      "sha256": "5e8e670baa732b4ef3c9bfe48e279ca122cdaa0eed464a3f4965e723e27deb6e",
+      "supplied_file_sha256": "7b6b5eb1816d2cedeb09565eaad6b8c5e84142f299afc41f7110310491637008",
+      "kind": "documentation",
+      "ai_generated_text": true,
+      "original_tool": "ChatGPT",
+      "original_model": null,
+      "publication_revision": {
+        "tool": "OpenAI Codex",
+        "date": "2026-11-13",
+        "model": null,
+        "model_status": "unverified"
+      },
+      "preservation": "publication notice prepended; supplied body preserved byte-for-byte",
+      "preserved_body_sha256": "7b6b5eb1816d2cedeb09565eaad6b8c5e84142f299afc41f7110310491637008"
+    },
+    {
+      "path": "hard-spheres-eos/README.md",
+      "bytes": 4682,
+      "sha256": "79446927c721eccf3d238514b4e5a59babea716a5fc76d50708d33c1237896aa",
+      "supplied_file_sha256": "ee025b876f2da75797ae60eecdfa4444b702dcda43964548cb5614040497c544",
+      "kind": "documentation",
+      "ai_generated_text": true,
+      "original_tool": "unknown",
+      "original_model": null,
+      "publication_revision": {
+        "tool": "OpenAI Codex",
+        "date": "2026-11-13",
+        "model": null,
+        "model_status": "unverified"
+      },
+      "preservation": "AI-generated guide revised for selected archive",
+      "subsequent_human_edit": {
+        "author": "Gunwoo Park",
+        "date": "2026-11-14",
+        "scope": "Author-reference wording edited by the author; current prose preserved."
+      }
+    },
+    {
+      "path": "hard-spheres-eos/hard-sphere-mc/README.md",
+      "bytes": 3243,
+      "sha256": "d8eb7f780028a9315f32717693c6b7bb0490e2f27ccfa1e55df6b868cce98708",
+      "supplied_file_sha256": "47fd2d8ad9836cfdade6941b36fb868711f471d15f0c835ffe07841e20ad5709",
+      "kind": "documentation",
+      "ai_generated_text": true,
+      "original_tool": "Codex",
+      "original_model": null,
+      "publication_revision": {
+        "tool": "OpenAI Codex",
+        "date": "2026-11-13",
+        "model": null,
+        "model_status": "unverified"
+      },
+      "preservation": "AI-generated guide revised for selected archive"
+    },
+    {
+      "path": "hard-spheres-eos/hard-sphere-mc/REPORT.md",
+      "bytes": 16649,
+      "sha256": "6ba075e1fab0a5fe9c15838920c8e427e17cf2193f8dc5b4daab80ebde0a98ff",
+      "supplied_file_sha256": "3814995b7ce00f66d04e8d8b6284c25232cb65a293d9c915607ccddfe9fc8984",
+      "kind": "documentation",
+      "ai_generated_text": true,
+      "original_tool": "Codex",
+      "original_model": null,
+      "publication_revision": {
+        "tool": "OpenAI Codex",
+        "date": "2026-11-13",
+        "model": null,
+        "model_status": "unverified"
+      },
+      "preservation": "publication notice prepended; supplied body preserved byte-for-byte",
+      "preserved_body_sha256": "3814995b7ce00f66d04e8d8b6284c25232cb65a293d9c915607ccddfe9fc8984"
+    },
+    {
+      "path": "hard-spheres-eos/hard-sphere-mc/figures/comparison.pdf",
+      "bytes": 26233,
+      "sha256": "59caebedcdd01ae18afc3d9dc4a8f410f90d73470595c92925cbd7e529e7356d",
+      "supplied_file_sha256": "59caebedcdd01ae18afc3d9dc4a8f410f90d73470595c92925cbd7e529e7356d",
+      "kind": "figure",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/hard-sphere-mc/figures/comparison.png",
+      "bytes": 146175,
+      "sha256": "bc36396f17834520f2d573c6d449e75860ab511139091b5a3dd857ca4bc4a170",
+      "supplied_file_sha256": "bc36396f17834520f2d573c6d449e75860ab511139091b5a3dd857ca4bc4a170",
+      "kind": "figure",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/hard-sphere-mc/figures/estimator_checks.png",
+      "bytes": 122206,
+      "sha256": "a718b6a275e50cca9a1211878c76501ad9a4f17c659ac2c218d0f8ce4bbab30a",
+      "supplied_file_sha256": "a718b6a275e50cca9a1211878c76501ad9a4f17c659ac2c218d0f8ce4bbab30a",
+      "kind": "figure",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/hard-sphere-mc/figures/sampling.png",
+      "bytes": 291744,
+      "sha256": "284d5e770414ef3d7fecddc22c20b9b825387531d5369ea0e0573fdedb738f0c",
+      "supplied_file_sha256": "284d5e770414ef3d7fecddc22c20b9b825387531d5369ea0e0573fdedb738f0c",
+      "kind": "figure",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/hard-sphere-mc/inputs/main_N216_phi0.05_rep0_initial.npy",
+      "bytes": 5312,
+      "sha256": "dd477d1b185b469e9cc3279afb5664c06e5516d550e6b01848ea185d4f02a5a8",
+      "supplied_file_sha256": "dd477d1b185b469e9cc3279afb5664c06e5516d550e6b01848ea185d4f02a5a8",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/hard-sphere-mc/inputs/main_N216_phi0.05_rep1_initial.npy",
+      "bytes": 5312,
+      "sha256": "dd477d1b185b469e9cc3279afb5664c06e5516d550e6b01848ea185d4f02a5a8",
+      "supplied_file_sha256": "dd477d1b185b469e9cc3279afb5664c06e5516d550e6b01848ea185d4f02a5a8",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/hard-sphere-mc/inputs/main_N216_phi0.05_rep2_initial.npy",
+      "bytes": 5312,
+      "sha256": "dd477d1b185b469e9cc3279afb5664c06e5516d550e6b01848ea185d4f02a5a8",
+      "supplied_file_sha256": "dd477d1b185b469e9cc3279afb5664c06e5516d550e6b01848ea185d4f02a5a8",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/hard-sphere-mc/inputs/main_N216_phi0.15_rep0_initial.npy",
+      "bytes": 5312,
+      "sha256": "f543554e14c35ff74d283e317f2d3b5bd28940e95f9391c245cc256870a35551",
+      "supplied_file_sha256": "f543554e14c35ff74d283e317f2d3b5bd28940e95f9391c245cc256870a35551",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/hard-sphere-mc/inputs/main_N216_phi0.15_rep1_initial.npy",
+      "bytes": 5312,
+      "sha256": "f543554e14c35ff74d283e317f2d3b5bd28940e95f9391c245cc256870a35551",
+      "supplied_file_sha256": "f543554e14c35ff74d283e317f2d3b5bd28940e95f9391c245cc256870a35551",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/hard-sphere-mc/inputs/main_N216_phi0.15_rep2_initial.npy",
+      "bytes": 5312,
+      "sha256": "f543554e14c35ff74d283e317f2d3b5bd28940e95f9391c245cc256870a35551",
+      "supplied_file_sha256": "f543554e14c35ff74d283e317f2d3b5bd28940e95f9391c245cc256870a35551",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/hard-sphere-mc/inputs/main_N216_phi0.30_rep0_initial.npy",
+      "bytes": 5312,
+      "sha256": "703ba7d583e042ca9faaa3394b556aa43286196fcdd76b3c780298e227342798",
+      "supplied_file_sha256": "703ba7d583e042ca9faaa3394b556aa43286196fcdd76b3c780298e227342798",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/hard-sphere-mc/inputs/main_N216_phi0.30_rep1_initial.npy",
+      "bytes": 5312,
+      "sha256": "703ba7d583e042ca9faaa3394b556aa43286196fcdd76b3c780298e227342798",
+      "supplied_file_sha256": "703ba7d583e042ca9faaa3394b556aa43286196fcdd76b3c780298e227342798",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/hard-sphere-mc/inputs/main_N216_phi0.30_rep2_initial.npy",
+      "bytes": 5312,
+      "sha256": "703ba7d583e042ca9faaa3394b556aa43286196fcdd76b3c780298e227342798",
+      "supplied_file_sha256": "703ba7d583e042ca9faaa3394b556aa43286196fcdd76b3c780298e227342798",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/hard-sphere-mc/inputs/manifest_main.json",
+      "bytes": 3719,
+      "sha256": "81816b28c52f666abf9192afae4907795396ad4dd2c46be354d6d8b605acb4d2",
+      "supplied_file_sha256": "81816b28c52f666abf9192afae4907795396ad4dd2c46be354d6d8b605acb4d2",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/hard-sphere-mc/inputs/manifest_pilot.json",
+      "bytes": 415,
+      "sha256": "c5139ad6ca9bd7a8ca73ceef2bff74fc66f97313feafe3d2fbead417e5161abb",
+      "supplied_file_sha256": "c5139ad6ca9bd7a8ca73ceef2bff74fc66f97313feafe3d2fbead417e5161abb",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/hard-sphere-mc/inputs/manifest_proposal.json",
+      "bytes": 1250,
+      "sha256": "29dc8525296d263a55f833d677fe5049ca5ab8e814c8b076acfa509cba385596",
+      "supplied_file_sha256": "29dc8525296d263a55f833d677fe5049ca5ab8e814c8b076acfa509cba385596",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/hard-sphere-mc/inputs/manifest_size.json",
+      "bytes": 1235,
+      "sha256": "7bec3f1fa9ef15800d8d9be9240e7d4e0b6ab127bef152ab3ae638dd49b17fb7",
+      "supplied_file_sha256": "7bec3f1fa9ef15800d8d9be9240e7d4e0b6ab127bef152ab3ae638dd49b17fb7",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/hard-sphere-mc/inputs/pilot_N216_phi0.30_rep0_initial.npy",
+      "bytes": 5312,
+      "sha256": "703ba7d583e042ca9faaa3394b556aa43286196fcdd76b3c780298e227342798",
+      "supplied_file_sha256": "703ba7d583e042ca9faaa3394b556aa43286196fcdd76b3c780298e227342798",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/hard-sphere-mc/inputs/proposal_N216_phi0.30_rep0_initial.npy",
+      "bytes": 5312,
+      "sha256": "703ba7d583e042ca9faaa3394b556aa43286196fcdd76b3c780298e227342798",
+      "supplied_file_sha256": "703ba7d583e042ca9faaa3394b556aa43286196fcdd76b3c780298e227342798",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/hard-sphere-mc/inputs/proposal_N216_phi0.30_rep1_initial.npy",
+      "bytes": 5312,
+      "sha256": "703ba7d583e042ca9faaa3394b556aa43286196fcdd76b3c780298e227342798",
+      "supplied_file_sha256": "703ba7d583e042ca9faaa3394b556aa43286196fcdd76b3c780298e227342798",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/hard-sphere-mc/inputs/proposal_N216_phi0.30_rep2_initial.npy",
+      "bytes": 5312,
+      "sha256": "703ba7d583e042ca9faaa3394b556aa43286196fcdd76b3c780298e227342798",
+      "supplied_file_sha256": "703ba7d583e042ca9faaa3394b556aa43286196fcdd76b3c780298e227342798",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/hard-sphere-mc/inputs/size_N512_phi0.30_rep0_initial.npy",
+      "bytes": 12416,
+      "sha256": "4d8188f532bc8fe9fd0701f089a0c04fec2ed42d2284a699922e35795955fe75",
+      "supplied_file_sha256": "4d8188f532bc8fe9fd0701f089a0c04fec2ed42d2284a699922e35795955fe75",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/hard-sphere-mc/inputs/size_N512_phi0.30_rep1_initial.npy",
+      "bytes": 12416,
+      "sha256": "4d8188f532bc8fe9fd0701f089a0c04fec2ed42d2284a699922e35795955fe75",
+      "supplied_file_sha256": "4d8188f532bc8fe9fd0701f089a0c04fec2ed42d2284a699922e35795955fe75",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/hard-sphere-mc/inputs/size_N512_phi0.30_rep2_initial.npy",
+      "bytes": 12416,
+      "sha256": "4d8188f532bc8fe9fd0701f089a0c04fec2ed42d2284a699922e35795955fe75",
+      "supplied_file_sha256": "4d8188f532bc8fe9fd0701f089a0c04fec2ed42d2284a699922e35795955fe75",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/hard-sphere-mc/scripts/analyze.py",
+      "bytes": 12140,
+      "sha256": "4744e6067bf37350e88bf04ed8c4dd60cfd73a85c65af0586073715133f77bbe",
+      "supplied_file_sha256": "4744e6067bf37350e88bf04ed8c4dd60cfd73a85c65af0586073715133f77bbe",
+      "kind": "experiment_script",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/hard-sphere-mc/scripts/bootstrap.sh",
+      "bytes": 211,
+      "sha256": "eb4fb2f17177233818953edcd3c0c91bb433daa84f506a4c400464b193c5ea1d",
+      "supplied_file_sha256": "eb4fb2f17177233818953edcd3c0c91bb433daa84f506a4c400464b193c5ea1d",
+      "kind": "experiment_script",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/hard-sphere-mc/scripts/estimators.py",
+      "bytes": 1578,
+      "sha256": "2e06d53f2b5ac7a6de243a944c3794847201e6b9fd664032f91b0af2e8b8c7c1",
+      "supplied_file_sha256": "2e06d53f2b5ac7a6de243a944c3794847201e6b9fd664032f91b0af2e8b8c7c1",
+      "kind": "experiment_script",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/hard-sphere-mc/scripts/finalize.py",
+      "bytes": 7598,
+      "sha256": "42913b2e4dbbccf70756dc9a9ef57a1f0a9377165761ec1fa221224976d45200",
+      "supplied_file_sha256": "42913b2e4dbbccf70756dc9a9ef57a1f0a9377165761ec1fa221224976d45200",
+      "kind": "experiment_script",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/hard-sphere-mc/scripts/hs_mc.py",
+      "bytes": 5980,
+      "sha256": "878c0dc3ec29deca14bab0cc943da03653b33eb5749c242ba8cfcdf3dccc36e0",
+      "supplied_file_sha256": "878c0dc3ec29deca14bab0cc943da03653b33eb5749c242ba8cfcdf3dccc36e0",
+      "kind": "experiment_script",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/hard-sphere-mc/scripts/limited.py",
+      "bytes": 3050,
+      "sha256": "72e3206a3980e48ee60c92d1fc49611a27a0c4dad1d3064001579522e108ad66",
+      "supplied_file_sha256": "72e3206a3980e48ee60c92d1fc49611a27a0c4dad1d3064001579522e108ad66",
+      "kind": "experiment_script",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/hard-sphere-mc/scripts/report.py",
+      "bytes": 2518,
+      "sha256": "571a8fb656b23a689cf1b1e78624c646ea668b0a099817a1d35896ddafa39931",
+      "supplied_file_sha256": "571a8fb656b23a689cf1b1e78624c646ea668b0a099817a1d35896ddafa39931",
+      "kind": "experiment_script",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/hard-sphere-mc/scripts/reproduce.sh",
+      "bytes": 746,
+      "sha256": "b29463dbbfcb7a3e0ded8630da7db157eeab0683fc24af2d2828177c3950d924",
+      "supplied_file_sha256": "b29463dbbfcb7a3e0ded8630da7db157eeab0683fc24af2d2828177c3950d924",
+      "kind": "experiment_script",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/hard-sphere-mc/scripts/verify.py",
+      "bytes": 3090,
+      "sha256": "ab8c72a34d3369d2678ab5f9d59495d0843538e6ab12bdca9d2283ea132fc7cd",
+      "supplied_file_sha256": "ab8c72a34d3369d2678ab5f9d59495d0843538e6ab12bdca9d2283ea132fc7cd",
+      "kind": "experiment_script",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/soft-repulsive-bd/PACKAGE_SELECTION.md",
+      "bytes": 3778,
+      "sha256": "1861f3df1383019799b62533097de85460ec981a8d575e29098a044ba0b4a3cd",
+      "supplied_file_sha256": "5a273c12c46600596ddc302020ff2717131f0b08f5e1fc2294f0881943f437a4",
+      "kind": "documentation",
+      "ai_generated_text": true,
+      "original_tool": "Codex",
+      "original_model": null,
+      "publication_revision": {
+        "tool": "OpenAI Codex",
+        "date": "2026-11-13",
+        "model": null,
+        "model_status": "unverified"
+      },
+      "preservation": "publication notice prepended; supplied body preserved byte-for-byte",
+      "preserved_body_sha256": "5a273c12c46600596ddc302020ff2717131f0b08f5e1fc2294f0881943f437a4"
+    },
+    {
+      "path": "hard-spheres-eos/soft-repulsive-bd/README.md",
+      "bytes": 3000,
+      "sha256": "965fdcfe59dc442de161c8797ce88269938b7d3c7d03f5ee310fe5bc7b60d212",
+      "supplied_file_sha256": "3f2f3672b59830ee870a563d1f8cb930129ec01641f6150016f6f96a7f8863aa",
+      "kind": "documentation",
+      "ai_generated_text": true,
+      "original_tool": "Codex",
+      "original_model": null,
+      "publication_revision": {
+        "tool": "OpenAI Codex",
+        "date": "2026-11-13",
+        "model": null,
+        "model_status": "unverified"
+      },
+      "preservation": "AI-generated guide revised for selected archive"
+    },
+    {
+      "path": "hard-spheres-eos/soft-repulsive-bd/REPORT.md",
+      "bytes": 14807,
+      "sha256": "ef093a6a847bf167d7ec0ac21b8585d2128947df65beec39170c07d693c4523e",
+      "supplied_file_sha256": "64ac2056f6327d86263dd0493cd1e63700f1cf4b654fedb91e9b1d529f0423ec",
+      "kind": "documentation",
+      "ai_generated_text": true,
+      "original_tool": "Codex",
+      "original_model": null,
+      "publication_revision": {
+        "tool": "OpenAI Codex",
+        "date": "2026-11-13",
+        "model": null,
+        "model_status": "unverified"
+      },
+      "preservation": "publication notice prepended; supplied body preserved byte-for-byte",
+      "preserved_body_sha256": "64ac2056f6327d86263dd0493cd1e63700f1cf4b654fedb91e9b1d529f0423ec"
+    },
+    {
+      "path": "hard-spheres-eos/soft-repulsive-bd/figures/equation_of_state.pdf",
+      "bytes": 29245,
+      "sha256": "d3df4fe1067fc3a90da8e0f66fa3b88c26611a1c75a3cda8da02107faf37f68b",
+      "supplied_file_sha256": "d3df4fe1067fc3a90da8e0f66fa3b88c26611a1c75a3cda8da02107faf37f68b",
+      "kind": "figure",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/soft-repulsive-bd/figures/equation_of_state.png",
+      "bytes": 151674,
+      "sha256": "03f9d9e13894415c5d42e459b0ae47de2aaf95293b65989dee9ca801703219b8",
+      "supplied_file_sha256": "03f9d9e13894415c5d42e459b0ae47de2aaf95293b65989dee9ca801703219b8",
+      "kind": "figure",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/soft-repulsive-bd/figures/sampling_diagnostics.png",
+      "bytes": 293162,
+      "sha256": "fe09720176112a7557ac7be3919a705fdca6de0caa0975854a34dc1f45657e67",
+      "supplied_file_sha256": "fe09720176112a7557ac7be3919a705fdca6de0caa0975854a34dc1f45657e67",
+      "kind": "figure",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/soft-repulsive-bd/inputs/A100_phi0.05_rep0.data",
+      "bytes": 13026,
+      "sha256": "ab375a5b7e43de438cf803aade34fee7138040eab5c205fb6d671680722f472e",
+      "supplied_file_sha256": "ab375a5b7e43de438cf803aade34fee7138040eab5c205fb6d671680722f472e",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/soft-repulsive-bd/inputs/A100_phi0.05_rep0.in",
+      "bytes": 848,
+      "sha256": "14a0ee93530a9191a2a60aab6dcbafe901e5f28f01b32c0353246b00543cbfb1",
+      "supplied_file_sha256": "14a0ee93530a9191a2a60aab6dcbafe901e5f28f01b32c0353246b00543cbfb1",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/soft-repulsive-bd/inputs/A100_phi0.05_rep1.data",
+      "bytes": 13026,
+      "sha256": "ab375a5b7e43de438cf803aade34fee7138040eab5c205fb6d671680722f472e",
+      "supplied_file_sha256": "ab375a5b7e43de438cf803aade34fee7138040eab5c205fb6d671680722f472e",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/soft-repulsive-bd/inputs/A100_phi0.05_rep1.in",
+      "bytes": 848,
+      "sha256": "1a2b8b082f1b4df9b1d93af9c487a58e083b4c85868409ab18c0d528e2213b70",
+      "supplied_file_sha256": "1a2b8b082f1b4df9b1d93af9c487a58e083b4c85868409ab18c0d528e2213b70",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/soft-repulsive-bd/inputs/A100_phi0.15_rep0.data",
+      "bytes": 12918,
+      "sha256": "405c2404660ed0ddbf1df1bfe1a0af70e58a0887d305be8cd675ad2f52501912",
+      "supplied_file_sha256": "405c2404660ed0ddbf1df1bfe1a0af70e58a0887d305be8cd675ad2f52501912",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/soft-repulsive-bd/inputs/A100_phi0.15_rep0.in",
+      "bytes": 847,
+      "sha256": "bf96e20acbf0f218451505078caf2fa0c8ed0f05d4a75625ebd6253f8f4ead72",
+      "supplied_file_sha256": "bf96e20acbf0f218451505078caf2fa0c8ed0f05d4a75625ebd6253f8f4ead72",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/soft-repulsive-bd/inputs/A100_phi0.15_rep1.data",
+      "bytes": 12918,
+      "sha256": "405c2404660ed0ddbf1df1bfe1a0af70e58a0887d305be8cd675ad2f52501912",
+      "supplied_file_sha256": "405c2404660ed0ddbf1df1bfe1a0af70e58a0887d305be8cd675ad2f52501912",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/soft-repulsive-bd/inputs/A100_phi0.15_rep1.in",
+      "bytes": 847,
+      "sha256": "f1f4e381e6bbfa4fdc2d065b2038c478fe4a90df42e3c4077947f0c693d3e4b7",
+      "supplied_file_sha256": "f1f4e381e6bbfa4fdc2d065b2038c478fe4a90df42e3c4077947f0c693d3e4b7",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/soft-repulsive-bd/inputs/A100_phi0.30_halfdt_rep0.data",
+      "bytes": 13134,
+      "sha256": "a0f5f6890384ef60d1884d7476f1be846ccbeef8e4fa5e28a42d83977c0aea4b",
+      "supplied_file_sha256": "a0f5f6890384ef60d1884d7476f1be846ccbeef8e4fa5e28a42d83977c0aea4b",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/soft-repulsive-bd/inputs/A100_phi0.30_halfdt_rep0.in",
+      "bytes": 885,
+      "sha256": "2e9735762487758ada494483eddebdfb8f876e0dc29be109708aa17531792bc1",
+      "supplied_file_sha256": "2e9735762487758ada494483eddebdfb8f876e0dc29be109708aa17531792bc1",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/soft-repulsive-bd/inputs/A100_phi0.30_halfdt_rep1.data",
+      "bytes": 13134,
+      "sha256": "a0f5f6890384ef60d1884d7476f1be846ccbeef8e4fa5e28a42d83977c0aea4b",
+      "supplied_file_sha256": "a0f5f6890384ef60d1884d7476f1be846ccbeef8e4fa5e28a42d83977c0aea4b",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/soft-repulsive-bd/inputs/A100_phi0.30_halfdt_rep1.in",
+      "bytes": 885,
+      "sha256": "0a47bc982f7bea5a5f341643a9ec5c25a1f00e8b253407c4df136c67b2742489",
+      "supplied_file_sha256": "0a47bc982f7bea5a5f341643a9ec5c25a1f00e8b253407c4df136c67b2742489",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/soft-repulsive-bd/inputs/A100_phi0.30_rep0.data",
+      "bytes": 13134,
+      "sha256": "a0f5f6890384ef60d1884d7476f1be846ccbeef8e4fa5e28a42d83977c0aea4b",
+      "supplied_file_sha256": "a0f5f6890384ef60d1884d7476f1be846ccbeef8e4fa5e28a42d83977c0aea4b",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/soft-repulsive-bd/inputs/A100_phi0.30_rep0.in",
+      "bytes": 847,
+      "sha256": "d4eb2dca7e0acbe32b4898dd47fa7589bb9aa0a1467c471a10628ac83fc7fdf7",
+      "supplied_file_sha256": "d4eb2dca7e0acbe32b4898dd47fa7589bb9aa0a1467c471a10628ac83fc7fdf7",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/soft-repulsive-bd/inputs/A100_phi0.30_rep1.data",
+      "bytes": 13134,
+      "sha256": "a0f5f6890384ef60d1884d7476f1be846ccbeef8e4fa5e28a42d83977c0aea4b",
+      "supplied_file_sha256": "a0f5f6890384ef60d1884d7476f1be846ccbeef8e4fa5e28a42d83977c0aea4b",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/soft-repulsive-bd/inputs/A100_phi0.30_rep1.in",
+      "bytes": 847,
+      "sha256": "4a831348d4f4994cd17094b123b788f47dc8aee7f86e033704b3418988116058",
+      "supplied_file_sha256": "4a831348d4f4994cd17094b123b788f47dc8aee7f86e033704b3418988116058",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/soft-repulsive-bd/inputs/A10_phi0.05_rep0.data",
+      "bytes": 13026,
+      "sha256": "ab375a5b7e43de438cf803aade34fee7138040eab5c205fb6d671680722f472e",
+      "supplied_file_sha256": "ab375a5b7e43de438cf803aade34fee7138040eab5c205fb6d671680722f472e",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/soft-repulsive-bd/inputs/A10_phi0.05_rep0.in",
+      "bytes": 841,
+      "sha256": "724e689c37d0bad8b1e6e30ebe368055289bf0c5905972e23c39686ee8b2927f",
+      "supplied_file_sha256": "724e689c37d0bad8b1e6e30ebe368055289bf0c5905972e23c39686ee8b2927f",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/soft-repulsive-bd/inputs/A10_phi0.05_rep1.data",
+      "bytes": 13026,
+      "sha256": "ab375a5b7e43de438cf803aade34fee7138040eab5c205fb6d671680722f472e",
+      "supplied_file_sha256": "ab375a5b7e43de438cf803aade34fee7138040eab5c205fb6d671680722f472e",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/soft-repulsive-bd/inputs/A10_phi0.05_rep1.in",
+      "bytes": 841,
+      "sha256": "7832bd8f51268682b9c3a36e6964cfd00a837e0b3907e6ebba6fa31e2c7bd9d4",
+      "supplied_file_sha256": "7832bd8f51268682b9c3a36e6964cfd00a837e0b3907e6ebba6fa31e2c7bd9d4",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/soft-repulsive-bd/inputs/A10_phi0.15_rep0.data",
+      "bytes": 12918,
+      "sha256": "405c2404660ed0ddbf1df1bfe1a0af70e58a0887d305be8cd675ad2f52501912",
+      "supplied_file_sha256": "405c2404660ed0ddbf1df1bfe1a0af70e58a0887d305be8cd675ad2f52501912",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/soft-repulsive-bd/inputs/A10_phi0.15_rep0.in",
+      "bytes": 840,
+      "sha256": "b8b0303751d0da2df08e3bf4cf1a90165eb1a8f7112b78fe68464a36bbe02fd3",
+      "supplied_file_sha256": "b8b0303751d0da2df08e3bf4cf1a90165eb1a8f7112b78fe68464a36bbe02fd3",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/soft-repulsive-bd/inputs/A10_phi0.15_rep1.data",
+      "bytes": 12918,
+      "sha256": "405c2404660ed0ddbf1df1bfe1a0af70e58a0887d305be8cd675ad2f52501912",
+      "supplied_file_sha256": "405c2404660ed0ddbf1df1bfe1a0af70e58a0887d305be8cd675ad2f52501912",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/soft-repulsive-bd/inputs/A10_phi0.15_rep1.in",
+      "bytes": 840,
+      "sha256": "70474a96da856ef5b09c6127c7759a6f60b2e6f295e6fea552652ba224ec661a",
+      "supplied_file_sha256": "70474a96da856ef5b09c6127c7759a6f60b2e6f295e6fea552652ba224ec661a",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/soft-repulsive-bd/inputs/A10_phi0.30_halfdt_rep0.data",
+      "bytes": 13134,
+      "sha256": "a0f5f6890384ef60d1884d7476f1be846ccbeef8e4fa5e28a42d83977c0aea4b",
+      "supplied_file_sha256": "a0f5f6890384ef60d1884d7476f1be846ccbeef8e4fa5e28a42d83977c0aea4b",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/soft-repulsive-bd/inputs/A10_phi0.30_halfdt_rep0.in",
+      "bytes": 875,
+      "sha256": "aa6f1e8e0ae9ffc312ac73bfb033cadb66956452286488f2cb329b7f42c6de70",
+      "supplied_file_sha256": "aa6f1e8e0ae9ffc312ac73bfb033cadb66956452286488f2cb329b7f42c6de70",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/soft-repulsive-bd/inputs/A10_phi0.30_halfdt_rep1.data",
+      "bytes": 13134,
+      "sha256": "a0f5f6890384ef60d1884d7476f1be846ccbeef8e4fa5e28a42d83977c0aea4b",
+      "supplied_file_sha256": "a0f5f6890384ef60d1884d7476f1be846ccbeef8e4fa5e28a42d83977c0aea4b",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/soft-repulsive-bd/inputs/A10_phi0.30_halfdt_rep1.in",
+      "bytes": 875,
+      "sha256": "628d5a458d358251eb9db1356cbed5b53ad97c6d71890041bb4c5d5cd225f041",
+      "supplied_file_sha256": "628d5a458d358251eb9db1356cbed5b53ad97c6d71890041bb4c5d5cd225f041",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/soft-repulsive-bd/inputs/A10_phi0.30_rep0.data",
+      "bytes": 13134,
+      "sha256": "a0f5f6890384ef60d1884d7476f1be846ccbeef8e4fa5e28a42d83977c0aea4b",
+      "supplied_file_sha256": "a0f5f6890384ef60d1884d7476f1be846ccbeef8e4fa5e28a42d83977c0aea4b",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/soft-repulsive-bd/inputs/A10_phi0.30_rep0.in",
+      "bytes": 840,
+      "sha256": "2232ff6ef56d959f370bb2c7cbe2613dc35247b68ae4686e135384f7631e24fe",
+      "supplied_file_sha256": "2232ff6ef56d959f370bb2c7cbe2613dc35247b68ae4686e135384f7631e24fe",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/soft-repulsive-bd/inputs/A10_phi0.30_rep1.data",
+      "bytes": 13134,
+      "sha256": "a0f5f6890384ef60d1884d7476f1be846ccbeef8e4fa5e28a42d83977c0aea4b",
+      "supplied_file_sha256": "a0f5f6890384ef60d1884d7476f1be846ccbeef8e4fa5e28a42d83977c0aea4b",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/soft-repulsive-bd/inputs/A10_phi0.30_rep1.in",
+      "bytes": 840,
+      "sha256": "7d3215dc3a0b5984a8d326ed4e64cd1acbc9887576f280d5e05b2c4e42949f83",
+      "supplied_file_sha256": "7d3215dc3a0b5984a8d326ed4e64cd1acbc9887576f280d5e05b2c4e42949f83",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/soft-repulsive-bd/inputs/manifest_main.json",
+      "bytes": 4060,
+      "sha256": "ab2a7ddb2d89adc68806c6c6cf2f20af06ed47822f2507beae8ddb8197ca3326",
+      "supplied_file_sha256": "ab2a7ddb2d89adc68806c6c6cf2f20af06ed47822f2507beae8ddb8197ca3326",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/soft-repulsive-bd/inputs/manifest_pilot.json",
+      "bytes": 322,
+      "sha256": "f51606181fb0a5f8e69e0df1052570d97b04596fd3fdd49023883a6d29118e68",
+      "supplied_file_sha256": "f51606181fb0a5f8e69e0df1052570d97b04596fd3fdd49023883a6d29118e68",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/soft-repulsive-bd/inputs/manifest_timestep.json",
+      "bytes": 1376,
+      "sha256": "71be6877767bf66a2199b7bccdb1d7f4820a9db215cc84d8203cc15e38ec5639",
+      "supplied_file_sha256": "71be6877767bf66a2199b7bccdb1d7f4820a9db215cc84d8203cc15e38ec5639",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/soft-repulsive-bd/inputs/pilot.data",
+      "bytes": 13134,
+      "sha256": "a0f5f6890384ef60d1884d7476f1be846ccbeef8e4fa5e28a42d83977c0aea4b",
+      "supplied_file_sha256": "a0f5f6890384ef60d1884d7476f1be846ccbeef8e4fa5e28a42d83977c0aea4b",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/soft-repulsive-bd/inputs/pilot.in",
+      "bytes": 782,
+      "sha256": "8b7cdcc1061575bb067af1bd73d77d603325758bd4f44db6397b7d803bceae3b",
+      "supplied_file_sha256": "8b7cdcc1061575bb067af1bd73d77d603325758bd4f44db6397b7d803bceae3b",
+      "kind": "initialization_input",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/soft-repulsive-bd/scripts/analyze.py",
+      "bytes": 8857,
+      "sha256": "2cb9d9f1d0f90d46b25b839b9480ba6cdce0c398882dd3af9df994b01d2ee0c0",
+      "supplied_file_sha256": "2cb9d9f1d0f90d46b25b839b9480ba6cdce0c398882dd3af9df994b01d2ee0c0",
+      "kind": "experiment_script",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/soft-repulsive-bd/scripts/bootstrap.sh",
+      "bytes": 315,
+      "sha256": "609f614d7dde50a7f206655c564c76f79f435128b024f5c328873a35daabc6c1",
+      "supplied_file_sha256": "609f614d7dde50a7f206655c564c76f79f435128b024f5c328873a35daabc6c1",
+      "kind": "experiment_script",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/soft-repulsive-bd/scripts/finalize.py",
+      "bytes": 5584,
+      "sha256": "cf95b308cd40961c98b111390683a587a9fcf3deb7b529712bcb0653d8e580d9",
+      "supplied_file_sha256": "cf95b308cd40961c98b111390683a587a9fcf3deb7b529712bcb0653d8e580d9",
+      "kind": "experiment_script",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/soft-repulsive-bd/scripts/limited.py",
+      "bytes": 2636,
+      "sha256": "eaff59cdde3616f7d752d9e975694c066b768a07bb2be1661ea70479039b0cda",
+      "supplied_file_sha256": "eaff59cdde3616f7d752d9e975694c066b768a07bb2be1661ea70479039b0cda",
+      "kind": "experiment_script",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/soft-repulsive-bd/scripts/report.py",
+      "bytes": 2666,
+      "sha256": "3397f722f29ad68fde9b74310113d9f224248495aefbeb55699fadb65d04e50d",
+      "supplied_file_sha256": "3397f722f29ad68fde9b74310113d9f224248495aefbeb55699fadb65d04e50d",
+      "kind": "experiment_script",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/soft-repulsive-bd/scripts/reproduce.sh",
+      "bytes": 628,
+      "sha256": "2d8f9e87044398730e81e5eb282bd5588585543042072824126f9ec8c87d07a9",
+      "supplied_file_sha256": "2d8f9e87044398730e81e5eb282bd5588585543042072824126f9ec8c87d07a9",
+      "kind": "experiment_script",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/soft-repulsive-bd/scripts/study.py",
+      "bytes": 3869,
+      "sha256": "5648231eb7da12315b5fef31f113295c5a3aebcde6df4ed987df39eaeb1ce5c6",
+      "supplied_file_sha256": "5648231eb7da12315b5fef31f113295c5a3aebcde6df4ed987df39eaeb1ce5c6",
+      "kind": "experiment_script",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    },
+    {
+      "path": "hard-spheres-eos/soft-repulsive-bd/scripts/verify.py",
+      "bytes": 2193,
+      "sha256": "8fe3be62027ea4db7548bafcd73d3fe6656ed27592319c4e94aee027eda226f7",
+      "supplied_file_sha256": "8fe3be62027ea4db7548bafcd73d3fe6656ed27592319c4e94aee027eda226f7",
+      "kind": "experiment_script",
+      "original_tool": "Codex",
+      "original_model": null,
+      "preservation": "unchanged supplied file"
+    }
+  ],
+  "publication_metadata_revision": {
+    "tool": "OpenAI Codex",
+    "date": "2026-11-14",
+    "model": null,
+    "model_status": "unverified",
+    "scope": "Author name and file identities reconciled after author-reference edits; no earlier generation model or historical receipt changed."
+  }
+}

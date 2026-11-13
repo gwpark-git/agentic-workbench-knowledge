@@ -1,0 +1,62 @@
+[
+  {
+    "name": "A10_phi0.30_halfdt_rep0",
+    "phi": 0.3,
+    "A": 10,
+    "dt": 5e-05,
+    "seed": 983931,
+    "N": 216,
+    "L": 7.223988394141365,
+    "rho": 0.5729577951308231,
+    "equilibration_time": 5.0,
+    "production_time": 20.0,
+    "sample_interval": 0.01,
+    "equilibration_steps": 100000,
+    "production_steps": 400000
+  },
+  {
+    "name": "A10_phi0.30_halfdt_rep1",
+    "phi": 0.3,
+    "A": 10,
+    "dt": 5e-05,
+    "seed": 995044,
+    "N": 216,
+    "L": 7.223988394141365,
+    "rho": 0.5729577951308231,
+    "equilibration_time": 5.0,
+    "production_time": 20.0,
+    "sample_interval": 0.01,
+    "equilibration_steps": 100000,
+    "production_steps": 400000
+  },
+  {
+    "name": "A100_phi0.30_halfdt_rep0",
+    "phi": 0.3,
+    "A": 100,
+    "dt": 1e-05,
+    "seed": 984021,
+    "N": 216,
+    "L": 7.223988394141365,
+    "rho": 0.5729577951308231,
+    "equilibration_time": 5.0,
+    "production_time": 20.0,
+    "sample_interval": 0.01,
+    "equilibration_steps": 500000,
+    "production_steps": 2000000
+  },
+  {
+    "name": "A100_phi0.30_halfdt_rep1",
+    "phi": 0.3,
+    "A": 100,
+    "dt": 1e-05,
+    "seed": 995134,
+    "N": 216,
+    "L": 7.223988394141365,
+    "rho": 0.5729577951308231,
+    "equilibration_time": 5.0,
+    "production_time": 20.0,
+    "sample_interval": 0.01,
+    "equilibration_steps": 500000,
+    "production_steps": 2000000
+  }
+]

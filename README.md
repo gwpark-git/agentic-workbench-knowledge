@@ -12,6 +12,20 @@ For questions, collaboration, or feedback regarding the Agentic Workbench, pleas
 
 ---
 
+# Before Reading My Letter...
+
+If you are more interested in what Agentic AI can actually do to prepare computational presets, I have prepared a couple of small computational demonstrations using plain Codex, without any Workbench tools.
+
+You can find them in the [demonstrations folder](demonstrations/) (without physical verification, anyhow).
+
+In fact, most of us do not need to go further. Just try it this way: ask ChatGPT, Gemini, Claude, or whichever AI model suits you, providing details about your perspective, expectations, and relevant technical requirements. They will give you *a nice prompt* that you can use with an Agentic AI coding tool. Then, execute it. That is all.
+
+What follows is only for someone like me who wants to build an environment that is reusable, modular, etc.
+
+---
+
+
+
 # Project information
 
 ## Overview of the (agentic) Workbench-Knowledge project

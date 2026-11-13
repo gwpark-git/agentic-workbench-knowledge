@@ -1,0 +1,53 @@
+[
+  {
+    "name": "size_N512_phi0.30_rep0",
+    "kind": "size",
+    "phi": 0.3,
+    "N": 512,
+    "nside": 8,
+    "L": 9.63198452552182,
+    "rho": 0.5729577951308233,
+    "seed": 839015,
+    "delta_initial": 0.25,
+    "equilibration_sweeps": 3000,
+    "adaptation_sweeps": 1000,
+    "production_sweeps": 30000,
+    "sample_spacing_sweeps": 5,
+    "histogram_bin_width": 0.002,
+    "histogram_maximum": 1.12
+  },
+  {
+    "name": "size_N512_phi0.30_rep1",
+    "kind": "size",
+    "phi": 0.3,
+    "N": 512,
+    "nside": 8,
+    "L": 9.63198452552182,
+    "rho": 0.5729577951308233,
+    "seed": 846934,
+    "delta_initial": 0.25,
+    "equilibration_sweeps": 3000,
+    "adaptation_sweeps": 1000,
+    "production_sweeps": 30000,
+    "sample_spacing_sweeps": 5,
+    "histogram_bin_width": 0.002,
+    "histogram_maximum": 1.12
+  },
+  {
+    "name": "size_N512_phi0.30_rep2",
+    "kind": "size",
+    "phi": 0.3,
+    "N": 512,
+    "nside": 8,
+    "L": 9.63198452552182,
+    "rho": 0.5729577951308233,
+    "seed": 854853,
+    "delta_initial": 0.25,
+    "equilibration_sweeps": 3000,
+    "adaptation_sweeps": 1000,
+    "production_sweeps": 30000,
+    "sample_spacing_sweeps": 5,
+    "histogram_bin_width": 0.002,
+    "histogram_maximum": 1.12
+  }
+]

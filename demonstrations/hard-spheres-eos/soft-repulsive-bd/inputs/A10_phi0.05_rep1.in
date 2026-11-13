@@ -1,0 +1,24 @@
+units lj
+dimension 3
+boundary p p p
+atom_style atomic
+read_data inputs/A10_phi0.05_rep1.data
+pair_style soft 1.0
+pair_coeff * * 10 1.0
+neighbor 0.3 bin
+neigh_modify every 1 delay 0 check yes
+timestep 0.0001
+fix bd all brownian 1.0 752095 gamma_t 1.0 rng gaussian
+compute pv all pressure NULL pair
+compute displacement all msd
+variable osm equal 0.09549296585513722+c_pv
+variable ep equal pe/atoms
+fix samples all ave/time 100 1 100 c_pv v_osm v_ep c_displacement[4] file outputs/A10_phi0.05_rep1.dat
+thermo_style custom step c_pv v_osm pe c_displacement[4]
+thermo_modify norm no
+thermo 10000
+run 50000
+write_dump all custom outputs/A10_phi0.05_rep1_equilibrated.dump id type x y z modify sort id
+run 200000
+write_dump all custom outputs/A10_phi0.05_rep1_final.dump id type x y z modify sort id
+write_restart outputs/A10_phi0.05_rep1.restart
