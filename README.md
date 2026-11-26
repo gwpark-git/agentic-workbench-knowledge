@@ -4,6 +4,7 @@
 **A Modular and Composable Framework for Reproducible Computational Research: An Agentic Workbench for Theory and Modeling**
 
 **Author:** Dr. Gunwoo Park
+
 Independent Researcher for Theory, Modeling, and Computational Science of Soft Matters and Rheology
 
 For questions, collaboration, or feedback regarding the Agentic Workbench, please mention it within this project. Documentation in other wb-packages is largely generated with AI under my direction.
