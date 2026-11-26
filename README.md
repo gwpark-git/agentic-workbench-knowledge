@@ -3,14 +3,22 @@
 
 **A Modular and Composable Framework for Reproducible Computational Research: An Agentic Workbench for Theory and Modeling**
 
-**Author:** Dr. Gunwoo Park  
+**Author:** Dr. Gunwoo Park
 Independent Researcher for Theory, Modeling, and Computational Science of Soft Matters and Rheology
 
 For questions, collaboration, or feedback regarding the Agentic Workbench, please mention it within this project. Documentation in other wb-packages is largely generated with AI under my direction.
 
 **Date:** 13 Nov. 2026
 
----
+## Related wb repositories
+
+- [wb-plugins](https://github.com/gwpark-git/wb-plugins)
+  — Reusable logical tools and protocols for Agentic AI environments.
+
+- [wb-templates](https://github.com/gwpark-git/wb-templates)
+  — Reusable scientific and computational templates.
+
+- wb-applications (under development)
 
 # Before Reading My Letter...
 
@@ -22,7 +30,6 @@ In fact, most of us do not need to go further. Just try it this way: ask ChatGPT
 
 What follows is only for someone like me who wants to build an environment that is reusable, modular, etc.
 
----
 
 
 
@@ -45,7 +52,6 @@ My recommendation is to use wb-templates to transform your own existing code or 
 For the personal history behind this project, please see the next section regarding motivation. Note that descriptions in the motivation are mostly under development. Although many prototypes have been implemented, I do not consider the project capable of all those things yet.
 
 
----
 
 # Motivation - Where I am standing, and where I am heading?
 
@@ -78,7 +84,6 @@ In addition, even with very narrowly defined background information, (at least u
 At the same time, I found the most effective case is when I really provide methodological guidance and ask it to realize my ideas by combining existing pieces of knowledge, modeling, formulations, open-source computation tools, etc. (The latter, I intertwined with the wb-templates package, by the way.) This greatly influenced my thought that, well, then, I need an effective environment for handling such a thing.
 
 
----
 
 # How the agentic-workbench-knowledge project was started and what wb-plugins does?
 
@@ -99,7 +104,6 @@ Wait a second. We have been talking about various logical descriptions and insta
 Well, then how do we know AI achieved their goals, etc., and how can we, as humans, really understand what AI is doing? We cannot read tons of AI-generated text. Solutions to those questions have been implemented point by point in the **wb-plugins** package.
 
 
----
 
 # Where am I heading now? wb-applications
 
@@ -117,7 +121,6 @@ In the beginning, the preset was simple, but making it reproducible and testable
 So, this is the heading story for the **wb-applications** package that I will soon upload. But before going further, I have to introduce the middle framework **wb-templates**.
 
 
----
 
 # Missing pieces should be placed: wb-templates
 
@@ -135,7 +138,6 @@ So, **wb-templates** is a requirement for modular and composable approaches. At 
 - From my code for visualization and data analysis, it remembers my style and provides code that I wanted to use. So, I can copy this code to use for my data analysis or visualization.
 
 
----
 
 # Closing comments
 
